@@ -7,12 +7,12 @@ export const Hero = () => (
   <Section>
     <Container>
       <Content>
-        <span className="support-text">👏 Bem vindo(a) ao futuro</span>
+        <span className="support-text">👏 Bem vindo(a) à Devnine</span>
         <h1>
-          Aprenda a programar -<br /> <span>de graça</span>.
+          A plataforma que te ensina a programar - <span>de graça</span>.
         </h1>
         <h2>
-          Aprenda desenvolvimento web criando projetos reais e se mantenha
+          Aprenda desenvolvimento web criando projetos reais e torne-se mantenha
           relevante no mercado.
         </h2>
         <ButtonPrimary type="button">Inscreva-se</ButtonPrimary>
