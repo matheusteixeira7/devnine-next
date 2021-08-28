@@ -14,8 +14,8 @@ export const GenerateValue = () => {
             <span>Milhares</span> de devs já se conectaram.
           </h3>
           <p>
-            Aprenda desenvolvimento web criando projetos reais e se mantenha
-            relevante no mercado.
+            Comece a avançar agora mesmo na direção dos seus objetivos e alcance
+            o seu lugar como dev.
           </p>
           <ButtonPrimary type="button">Criar minha conta</ButtonPrimary>
         </Content>

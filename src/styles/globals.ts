@@ -64,6 +64,11 @@ a {
   text-decoration: none;
 }
 
+[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
 h1 {
   font-size: 4rem;
   line-height: 5rem;
