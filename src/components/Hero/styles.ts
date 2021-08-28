@@ -19,7 +19,8 @@ export const Content = styled.div`
   max-width: 600px;
 
   span,
-  h1 {
+  h1,
+  h2 {
     margin-bottom: 2rem;
   }
 

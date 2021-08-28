@@ -8,6 +8,10 @@ export const ButtonPrimary = styled.button`
   font-size: 1.25rem;
   font-weight: 700;
   height: 4rem;
-  margin-top: 2rem;
-  padding: 0 6.25rem;
+  width: 18.75rem;
+  transition: filter 200ms ease;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
 `;

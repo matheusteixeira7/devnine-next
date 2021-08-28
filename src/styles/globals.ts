@@ -95,7 +95,7 @@ h4 {
 
 p {
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 1.6rem;
   font-weight: 400;
   color: var(--body-text)
 }

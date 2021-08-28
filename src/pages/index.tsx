@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
+import { BestStep } from '../components/BestStep';
 import { GenerateValue } from '../components/GenerateValue';
 import { Hero } from '../components/Hero';
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Hero />
         <GenerateValue />
+        <BestStep />
       </main>
     </>
   );

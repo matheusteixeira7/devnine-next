@@ -29,6 +29,7 @@ export const Content = styled.div`
     font-weight: 400;
     line-height: 2.25rem;
     color: white;
+    margin-bottom: 2rem;
     text-align: right;
   }
 
