@@ -25,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
 
   --shape: #1E1C27;
   --background: #181620;
+  --background-linear: linear-gradient(to right, #1f1d26, #181620);
 }
 
 html {

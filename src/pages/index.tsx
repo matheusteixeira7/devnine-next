@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { Hero } from '../components/Home/Hero';
+import { GenerateValue } from '../components/GenerateValue';
+import { Hero } from '../components/Hero';
 
 export default function Home() {
   return (
@@ -14,9 +15,8 @@ export default function Home() {
         />
       </Head>
       <main>
-        <section>
-          <Hero />
-        </section>
+        <Hero />
+        <GenerateValue />
       </main>
     </>
   );
