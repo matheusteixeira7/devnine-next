@@ -12,7 +12,7 @@ export const Hero = () => (
           A plataforma que te ensina a programar - <span>de graça</span>.
         </h1>
         <h2>
-          Aprenda desenvolvimento web criando projetos reais e torne-se mantenha
+          Aprenda desenvolvimento web criando projetos reais e torne-se
           relevante no mercado.
         </h2>
         <ButtonPrimary type="button">Inscreva-se</ButtonPrimary>
