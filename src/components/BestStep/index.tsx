@@ -67,7 +67,7 @@ export const BestStep = () => {
             </Starter>
 
             <Booster isActive={activeStep === 'booster'}>
-              <img src="/images/rocket.svg" alt="Foguete" />
+              <img src="/images/booster.svg" alt="Foguete" />
               <BoosterContent>
                 <img src="/images/boosterLogo.svg" alt="Booster Logo" />
                 <h4>

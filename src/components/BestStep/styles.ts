@@ -62,6 +62,7 @@ export const Starter = styled.div<IButtonSelectCourseProps>`
   border: 1px solid #29292e;
   display: ${(props) => (props.isActive ? 'flex' : 'none')};
   justify-content: space-between;
+  min-height: 28rem;
 
   img {
     margin-right: auto;
@@ -71,6 +72,7 @@ export const Starter = styled.div<IButtonSelectCourseProps>`
 export const StarterContent = styled.div`
   max-width: 32rem;
   padding: 2rem;
+  align-self: flex-start;
 
   img {
     margin-bottom: 2rem;
@@ -102,6 +104,7 @@ export const Booster = styled.div<IButtonSelectCourseProps>`
   border: 1px solid #29292e;
   display: ${(props) => (props.isActive ? 'flex' : 'none')};
   justify-content: space-between;
+  min-height: 28rem;
 
   img {
     margin-right: auto;
@@ -111,6 +114,7 @@ export const Booster = styled.div<IButtonSelectCourseProps>`
 export const BoosterContent = styled.div`
   max-width: 32rem;
   padding: 2rem;
+  align-self: flex-start;
 
   img {
     margin-bottom: 2rem;
