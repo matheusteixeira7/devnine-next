@@ -15,7 +15,7 @@ export const Header = () => {
           <a href="/">Posts</a>
           <a href="/">Vídeos</a>
           <a href="/">Starter</a>
-          <a href="/">Bootcamp</a>
+          <a href="/">Booster</a>
         </nav>
 
         <SignInButton />
