@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
+  background: var(--background-linear);
+`;
+
+export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
-
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -13,8 +16,6 @@ export const Section = styled.section`
     margin-left: 1rem;
   }
 `;
-
-export const Container = styled.div``;
 
 export const Content = styled.div`
   background: #2a2836;

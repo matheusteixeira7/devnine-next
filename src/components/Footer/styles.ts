@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   border-bottom: 1px solid #29292e;
+  background: var(--background-linear);
 `;
 
 export const Container = styled.div`

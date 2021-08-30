@@ -37,6 +37,7 @@ export const Footer = () => {
           </nav>
         </Container>
       </Section>
+      <SocialMediaFooter />
     </>
   );
 };
