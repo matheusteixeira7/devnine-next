@@ -16,6 +16,7 @@ export const Content = styled.div`
 
   img {
     height: 2rem;
+    cursor: pointer;
   }
 
   nav {

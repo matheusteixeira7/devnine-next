@@ -10,7 +10,9 @@ export const Header = () => {
   return (
     <Container>
       <Content>
-        <img src="/images/logo-horizontal.svg" alt="Devnine Logo" />
+        <Link href="/">
+          <img src="/images/logo-horizontal.svg" alt="Devnine Logo" />
+        </Link>
         <nav>
           <ul>
             <Link href="/">
