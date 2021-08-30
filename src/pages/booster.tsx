@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { NewsLetter } from '../components/NewsLetter';
+import { GenerateValue } from '../components/GenerateValue';
 
 export default function Booster() {
   return (
@@ -14,7 +14,7 @@ export default function Booster() {
         />
       </Head>
       <main>
-        <NewsLetter />
+        <GenerateValue />
       </main>
     </>
   );
