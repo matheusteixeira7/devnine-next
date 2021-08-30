@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Section = styled.section`
+  background: var(--background-linear);
+  border-bottom: 1px solid #29292e;
+`;
+
 export const Container = styled.div`
   margin: 0 auto;
   padding: 7rem 2rem;

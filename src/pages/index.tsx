@@ -4,7 +4,9 @@ import React from 'react';
 import { BestStep } from '../components/BestStep';
 import { GenerateValue } from '../components/GenerateValue';
 import { Hero } from '../components/Hero';
+import { MediaChannels } from '../components/MediaChannels';
 import { Method } from '../components/Method';
+import { NewsLetter } from '../components/NewsLetter';
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
         <GenerateValue />
         <BestStep />
         <Method />
+        <MediaChannels />
+        <NewsLetter />
       </main>
     </>
   );

@@ -61,11 +61,11 @@ export const Starter = styled.div<IButtonSelectCourseProps>`
   background: var(--shape);
   border: 1px solid #29292e;
   display: ${(props) => (props.isActive ? 'flex' : 'none')};
-  justify-content: space-between;
+  justify-content: space-around;
   min-height: 28rem;
 
   img {
-    margin-right: auto;
+    /* margin-right: auto; */
   }
 `;
 
@@ -103,11 +103,11 @@ export const Booster = styled.div<IButtonSelectCourseProps>`
   background: var(--shape);
   border: 1px solid #29292e;
   display: ${(props) => (props.isActive ? 'flex' : 'none')};
-  justify-content: space-between;
+  justify-content: space-around;
   min-height: 28rem;
 
   img {
-    margin-right: auto;
+    /* margin-right: auto; */
   }
 `;
 
