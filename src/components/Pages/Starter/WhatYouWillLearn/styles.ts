@@ -36,6 +36,7 @@ export const Card = styled.div`
   height: 35rem;
   position: relative;
   border: 1px solid #29292e;
+  border-radius: 0.25rem;
 
   img,
   h4,
@@ -74,8 +75,8 @@ export const Classes = styled.div`
 
 export const BarGreen = styled.div`
   position: absolute;
-  bottom: 0;
-  border-radius: 1px 1px 5px 5px;
+  top: 0;
+  border-radius: 5px 5px 1px 1px;
   left: 0;
   height: 8px;
   width: 100%;
@@ -84,8 +85,8 @@ export const BarGreen = styled.div`
 
 export const BarBlue = styled.div`
   position: absolute;
-  bottom: 0;
-  border-radius: 1px 1px 5px 5px;
+  top: 0;
+  border-radius: 5px 5px 1px 1px;
   left: 0;
   height: 8px;
   width: 100%;
@@ -94,8 +95,8 @@ export const BarBlue = styled.div`
 
 export const BarYellow = styled.div`
   position: absolute;
-  bottom: 0;
-  border-radius: 1px 1px 5px 5px;
+  top: 0;
+  border-radius: 5px 5px 1px 1px;
   left: 0;
   height: 8px;
   width: 100%;
