@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { MediaChannels } from '../components/MediaChannels';
+import { Hero } from '../components/Pages/Starter/Hero';
 
 export default function Starter() {
   return (
@@ -14,7 +14,7 @@ export default function Starter() {
         />
       </Head>
       <main>
-        <MediaChannels />
+        <Hero />
       </main>
     </>
   );

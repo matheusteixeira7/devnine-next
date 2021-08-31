@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { BestStep } from '../components/BestStep';
-import { GenerateValue } from '../components/GenerateValue';
-import { Hero } from '../components/Hero';
-import { MediaChannels } from '../components/MediaChannels';
-import { Method } from '../components/Method';
 import { NewsLetter } from '../components/NewsLetter';
+import { BestStep } from '../components/Pages/Home/BestStep';
+import { GenerateValue } from '../components/Pages/Home/GenerateValue';
+import { Hero } from '../components/Pages/Home/Hero';
+import { MediaChannels } from '../components/Pages/Home/MediaChannels';
+import { Method } from '../components/Pages/Home/Method';
 
 export default function Home() {
   return (

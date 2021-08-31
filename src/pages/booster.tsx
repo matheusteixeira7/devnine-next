@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { GenerateValue } from '../components/GenerateValue';
+import { GenerateValue } from '../components/Pages/Home/GenerateValue';
 
 export default function Booster() {
   return (

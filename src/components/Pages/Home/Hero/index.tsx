@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ButtonPrimary } from '../ButtonPrimary/styles';
+import { ButtonPrimary } from '../../../ButtonPrimary/styles';
 import { Container, Content, Section } from './styles';
 
 export const Hero = () => (

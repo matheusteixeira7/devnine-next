@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { BestStep } from '../components/BestStep';
+import { BestStep } from '../components/Pages/Home/BestStep';
 
 export default function Videos() {
   return (
