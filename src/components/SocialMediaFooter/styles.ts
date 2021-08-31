@@ -28,4 +28,10 @@ export const Content = styled.div`
 
   border-radius: 0.25rem;
   border: none;
+
+  transition: all 200ms ease;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
 `;

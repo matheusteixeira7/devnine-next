@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Section = styled.section``;
+export const Section = styled.section`
+  border: 1px solid #29292e;
+`;
 
 export const Container = styled.div`
   max-width: 1120px;

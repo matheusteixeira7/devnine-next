@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
+import { Educator } from '../components/Pages/Starter/Educator';
 import { Hero } from '../components/Pages/Starter/Hero';
 import { WhatYouWillLearn } from '../components/Pages/Starter/WhatYouWillLearn';
 
@@ -17,6 +18,7 @@ export default function Starter() {
       <main>
         <Hero />
         <WhatYouWillLearn />
+        <Educator />
       </main>
     </>
   );
