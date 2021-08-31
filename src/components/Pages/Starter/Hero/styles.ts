@@ -49,3 +49,13 @@ export const SupportText = styled.div`
     margin-right: 2rem;
   }
 `;
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  p {
+    margin-left: 1rem;
+  }
+`;

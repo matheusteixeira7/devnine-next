@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 
 import { Hero } from '../components/Pages/Starter/Hero';
+import { WhatYouWillLearn } from '../components/Pages/Starter/WhatYouWillLearn';
 
 export default function Starter() {
   return (
@@ -15,6 +16,7 @@ export default function Starter() {
       </Head>
       <main>
         <Hero />
+        <WhatYouWillLearn />
       </main>
     </>
   );

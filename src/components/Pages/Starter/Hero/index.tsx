@@ -1,7 +1,13 @@
 import React from 'react';
 
 import { ButtonPrimary } from '../../../ButtonPrimary/styles';
-import { Container, Content, Section, SupportText } from './styles';
+import {
+  ButtonContainer,
+  Container,
+  Content,
+  Section,
+  SupportText,
+} from './styles';
 
 export const Hero = () => (
   <Section>
@@ -21,7 +27,13 @@ export const Hero = () => (
           No programa de ensino você aprenderá a base da programação,
           construindo uma base sólida para construir suas primeiras aplicações.
         </h2>
-        <ButtonPrimary type="button">Inscreva-se</ButtonPrimary>
+        <ButtonContainer>
+          <ButtonPrimary type="button">Inscreva-se</ButtonPrimary>
+          <p>
+            HTML, CSS, Sass,
+            <br /> JavaScript, Git e muito mais.
+          </p>
+        </ButtonContainer>
       </Content>
 
       <img src="/images/coding_1.svg" alt="Rapaz programando" />
