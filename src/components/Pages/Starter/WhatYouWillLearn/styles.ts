@@ -35,6 +35,7 @@ export const Card = styled.div`
   padding: 2rem;
   height: 35rem;
   position: relative;
+  border: 1px solid #29292e;
 
   img,
   h4,
@@ -50,6 +51,18 @@ export const Card = styled.div`
 
   span {
     color: var(--primary);
+  }
+
+  &:nth-child(2) {
+    span {
+      color: var(--blue-500);
+    }
+  }
+
+  &:nth-child(3) {
+    span {
+      color: var(--accent);
+    }
   }
 `;
 
