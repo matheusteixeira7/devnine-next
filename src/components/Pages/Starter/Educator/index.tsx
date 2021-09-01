@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillInstagram } from 'react-icons/ai';
-import { FaFacebook, FaGithub, FaYoutube } from 'react-icons/fa';
+import { FaGithub, FaYoutube } from 'react-icons/fa';
 
 import {
   Section,

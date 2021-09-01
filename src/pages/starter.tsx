@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 
 import { Educator } from '../components/Pages/Starter/Educator';
+import { Faq } from '../components/Pages/Starter/Faq';
 import { Hero } from '../components/Pages/Starter/Hero';
 import { WhatYouWillLearn } from '../components/Pages/Starter/WhatYouWillLearn';
 
@@ -19,6 +20,8 @@ export default function Starter() {
         <Hero />
         <WhatYouWillLearn />
         <Educator />
+        <Faq />
+        <Hero />
       </main>
     </>
   );
