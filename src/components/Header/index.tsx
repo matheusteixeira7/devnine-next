@@ -34,7 +34,11 @@ export const Header = () => {
               </li>
             </Link>
             <Link href="/booster">
-              <li className={router.pathname === '/booster' ? 'active' : ''}>
+              <li
+                className={
+                  router.pathname === '/booster' ? 'active-booster' : ''
+                }
+              >
                 Booster
               </li>
             </Link>

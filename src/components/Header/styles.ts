@@ -58,6 +58,22 @@ export const Content = styled.div`
           left: 0;
           background: var(--primary);
         }
+
+        &.active-booster {
+          color: white;
+          font-weight: bold;
+        }
+
+        &.active-booster::after {
+          content: '';
+          height: 3px;
+          border-radius: 3px 3px 0 0;
+          width: 100%;
+          position: absolute;
+          bottom: 1px;
+          left: 0;
+          background: var(--blue-500);
+        }
       }
     }
   }

@@ -1,7 +1,14 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { GenerateValue } from '../components/Pages/Home/GenerateValue';
+import { DevnineHigher } from '../components/Pages/Booster/DevnineHigher';
+import { DontJumpThisStep } from '../components/Pages/Booster/DontJumpThisStep';
+import { EndCta } from '../components/Pages/Booster/EndCta';
+import { Faq } from '../components/Pages/Booster/Faq';
+import { Hero } from '../components/Pages/Booster/Hero';
+import { MoreThanTeach } from '../components/Pages/Booster/MoreThanTeach';
+import { ResourcesList } from '../components/Pages/Booster/ResourcesList';
+import { RightDirection } from '../components/Pages/Booster/RightDirection';
 
 export default function Booster() {
   return (
@@ -14,7 +21,14 @@ export default function Booster() {
         />
       </Head>
       <main>
-        <GenerateValue />
+        <Hero />
+        <RightDirection />
+        <DevnineHigher />
+        <ResourcesList />
+        <MoreThanTeach />
+        <DontJumpThisStep />
+        <Faq />
+        <EndCta />
       </main>
     </>
   );
