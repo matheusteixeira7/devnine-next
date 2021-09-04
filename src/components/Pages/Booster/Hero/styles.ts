@@ -84,18 +84,12 @@ export const ButtonSecondary = styled.button`
   height: 4rem;
   padding: 0 4rem;
   margin-left: 1rem;
+  transition: all 200ms ease;
 
   &:hover {
     background: var(--blue-500);
-    border-radius: 0.25rem;
     border: 1px solid transparent;
     color: var(--background);
-    font-size: 1.25rem;
-    font-weight: 700;
-    height: 4rem;
-    padding: 0 4rem;
-    transition: all 200ms ease;
-
     filter: brightness(0.8);
   }
 `;
