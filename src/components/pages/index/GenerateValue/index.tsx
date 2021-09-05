@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ButtonPrimary } from '../../../components/ButtonPrimary/styles';
+import { ButtonPrimary } from '../../../ButtonPrimary/styles';
 import { Container, Content, Section } from './styles';
 
 export default function GenerateValue() {

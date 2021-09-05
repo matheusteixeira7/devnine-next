@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillPlayCircle } from 'react-icons/ai';
 
-import { ButtonSecondary } from '../../../components/ButtonSecondary/styles';
+import { ButtonSecondary } from '../../../ButtonSecondary/styles';
 import {
   Section,
   SupportText,

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { ButtonPrimary } from '../../../components/ButtonPrimary/styles';
-import { ButtonSecondary } from '../../../components/ButtonSecondary/styles';
+import { ButtonPrimary } from '../../../ButtonPrimary/styles';
+import { ButtonSecondary } from '../../../ButtonSecondary/styles';
 import {
   Section,
   Container,

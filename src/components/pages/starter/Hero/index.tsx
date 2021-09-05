@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ButtonPrimary } from '../../../components/ButtonPrimary/styles';
+import { ButtonPrimary } from '../../../ButtonPrimary/styles';
 import {
   ButtonContainer,
   Container,

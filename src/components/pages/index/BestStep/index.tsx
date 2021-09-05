@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { ButtonPrimary } from '../../../components/ButtonPrimary/styles';
+import { ButtonPrimary } from '../../../ButtonPrimary/styles';
 import {
   Container,
   Content,
