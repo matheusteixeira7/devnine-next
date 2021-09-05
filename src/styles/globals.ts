@@ -16,9 +16,14 @@ export const GlobalStyle = createGlobalStyle`
   --gray-900: #121214;
 
   --blue-500: #61dafb;
+  --blue-gradient: linear-gradient(to right, #61dcfb, #619ffb);
 
   --primary: #bef264;
   --accent: #eba417;
+  --terciary: #61dcfb;
+
+  --primary-gradient: linear-gradient(to right, #bef264, #0c8706);
+  --terciary-gradient: linear-gradient(to right, #61dcfb, #619ffb);
 
   --title: #e1e1e6;
   --body-text: #A8A8B3;

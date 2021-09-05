@@ -58,4 +58,8 @@ export const ButtonContainer = styled.div`
   p {
     margin-left: 1rem;
   }
+
+  button {
+    width: 15.5rem;
+  }
 `;

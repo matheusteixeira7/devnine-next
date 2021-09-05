@@ -18,7 +18,8 @@ export const Container = styled.div`
     margin-bottom: 2rem;
 
     span {
-      background: linear-gradient(to right, #61dcfb, #619ffb);
+      background: var(--terciary-gradient);
+      background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
     }
@@ -53,10 +54,12 @@ export const SupportText = styled.div`
 `;
 
 export const BoosterHeaderButtons = styled.div`
-  margin: 2rem 0 4.5rem;
+  margin: 2rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  width: 40rem;
 `;
 
 export const ButtonPrimary = styled.button`
@@ -66,30 +69,10 @@ export const ButtonPrimary = styled.button`
   font-size: 1.25rem;
   font-weight: 700;
   height: 4rem;
-  padding: 0 4rem;
+  width: 100%;
   transition: all 200ms ease;
 
   &:hover {
-    filter: brightness(0.8);
-  }
-`;
-
-export const ButtonSecondary = styled.button`
-  background: transparent;
-  border-radius: 0.25rem;
-  border: 1px solid white;
-  color: white;
-  font-size: 1.25rem;
-  font-weight: 700;
-  height: 4rem;
-  padding: 0 4rem;
-  margin-left: 1rem;
-  transition: all 200ms ease;
-
-  &:hover {
-    background: var(--blue-500);
-    border: 1px solid transparent;
-    color: var(--background);
     filter: brightness(0.8);
   }
 `;

@@ -1,12 +1,13 @@
 import React from 'react';
+import { AiFillPlayCircle } from 'react-icons/ai';
 
+import { ButtonSecondary } from '../../../components/ButtonSecondary/styles';
 import {
   Section,
   SupportText,
   Container,
   BoosterHeaderButtons,
   ButtonPrimary,
-  ButtonSecondary,
   HeroImg,
 } from './styles';
 
@@ -30,7 +31,10 @@ export const Hero = () => {
 
           <BoosterHeaderButtons>
             <ButtonPrimary type="button">Inscreva-se</ButtonPrimary>
-            <ButtonSecondary type="button">Saiba mais</ButtonSecondary>
+            <ButtonSecondary type="button">
+              <AiFillPlayCircle style={{ marginRight: '1rem' }} />
+              Assistir vídeo
+            </ButtonSecondary>
           </BoosterHeaderButtons>
         </header>
 

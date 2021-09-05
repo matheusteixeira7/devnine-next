@@ -8,7 +8,7 @@ export const ButtonPrimary = styled.button`
   font-size: 1.25rem;
   font-weight: 700;
   height: 4rem;
-  width: 18.75rem;
+  width: 100%;
   transition: filter 200ms ease;
 
   &:hover {

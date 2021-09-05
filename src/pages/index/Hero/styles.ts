@@ -32,7 +32,23 @@ export const Content = styled.div`
     font-weight: 700;
   }
 
-  span {
-    color: var(--primary);
+  h1 {
+    span {
+      color: var(--primary);
+    }
+  }
+`;
+
+export const ButtonsContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 32rem;
+
+  button:nth-child(2) {
+    &:hover {
+      background: var(--primary);
+    }
   }
 `;

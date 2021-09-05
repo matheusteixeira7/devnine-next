@@ -36,7 +36,7 @@ interface IButtonSelectCourseProps {
 }
 const colors = {
   primary: '1px solid #bef264',
-  accent: '1px solid #eba417',
+  accent: '1px solid #61dcfb',
 };
 
 export const ButtonSelectCourse = styled.button<IButtonSelectCourseProps>`
@@ -129,7 +129,7 @@ export const BoosterContent = styled.div`
   }
 
   button {
-    background: #eba417;
+    background: var(--terciary);
 
     &:hover {
       filter: brightness(0.8);
