@@ -3,7 +3,7 @@ import React from 'react';
 import { SocialMediaFooter } from '../SocialMediaFooter';
 import { Branding, Container, Section } from './styles';
 
-export const Footer = () => {
+export default function Footer() {
   return (
     <>
       <Section>
@@ -40,4 +40,4 @@ export const Footer = () => {
       <SocialMediaFooter />
     </>
   );
-};
+}

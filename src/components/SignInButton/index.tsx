@@ -4,7 +4,7 @@ import { FiX } from 'react-icons/fi';
 
 import { Container } from './styles';
 
-export const SignInButton = () => {
+export default function SignInButton() {
   const isLogged = true;
 
   return isLogged ? (
@@ -19,4 +19,4 @@ export const SignInButton = () => {
       Entre com Github
     </Container>
   );
-};
+}

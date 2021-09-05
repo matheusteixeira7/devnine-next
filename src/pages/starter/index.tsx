@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { Educator } from './Educator';
-import { Faq } from './Faq';
-import { Hero } from './Hero';
-import { WhatYouWillLearn } from './WhatYouWillLearn';
+import Educator from './Educator';
+import Faq from './Faq';
+import Hero from './Hero';
+import WhatYouWillLearn from './WhatYouWillLearn';
 
 export default function Starter() {
   return (

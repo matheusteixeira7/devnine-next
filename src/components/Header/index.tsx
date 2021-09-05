@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import { SignInButton } from '../SignInButton';
+import SignInButton from '../SignInButton';
 import { Container, Content } from './styles';
 
-export const Header = () => {
+export default function Header() {
   const router = useRouter();
 
   return (
@@ -49,4 +49,4 @@ export const Header = () => {
       </Content>
     </Container>
   );
-};
+}

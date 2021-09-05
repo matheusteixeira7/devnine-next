@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { AiOutlineSafetyCertificate } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 
-import { Section, Container, NewsletterContainer, Content } from './styles';
+import { Section, Container, NewsletterContainer } from './styles';
 
-export const NewsLetter = () => {
+export default function NewsLetter() {
   const [state, setState] = useState({ value: '' });
   const handleSubmit = (event) => {
     alert(`a name was submitted ${state.value}`);
@@ -57,4 +56,4 @@ export const NewsLetter = () => {
       </Container>
     </Section>
   );
-};
+}

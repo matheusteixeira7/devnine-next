@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { NewsLetter } from '../components/NewsLetter';
+import NewsLetter from '../components/NewsLetter';
 import BestStep from './index/BestStep';
 import Hero from './index/Hero';
 import MediaChannels from './index/MediaChannels';
