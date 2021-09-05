@@ -9,7 +9,7 @@ import {
   Dash,
 } from './styles';
 
-export const MoreThanTeach = () => {
+export default function MoreThanTeach() {
   return (
     <Section>
       <Container>
@@ -75,4 +75,4 @@ export const MoreThanTeach = () => {
       </Container>
     </Section>
   );
-};
+}

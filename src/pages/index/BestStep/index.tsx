@@ -16,7 +16,7 @@ import {
   BoosterFooter,
 } from './styles';
 
-export const BestStep = () => {
+export default function BestStep() {
   // const [hovered, setHovered] = useState(false);
   const [activeStep, setActiveStep] = useState('starter');
 
@@ -93,4 +93,4 @@ export const BestStep = () => {
       </Container>
     </Section>
   );
-};
+}

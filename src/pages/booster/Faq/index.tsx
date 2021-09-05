@@ -10,7 +10,7 @@ import {
   FaqResponse,
 } from './styles';
 
-export const Faq = () => {
+export default function Faq() {
   const [faq1, setFaq1] = useState('');
   const [faq2, setFaq2] = useState('');
   const [faq3, setFaq3] = useState('');
@@ -136,4 +136,4 @@ export const Faq = () => {
       </Container>
     </Section>
   );
-};
+}

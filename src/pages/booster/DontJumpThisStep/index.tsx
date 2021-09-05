@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Section, Container, Card, WarningCard, Starter } from './styles';
 
-export const DontJumpThisStep = () => {
+export default function DontJumpThisStep() {
   return (
     <Section>
       <Container>
@@ -34,4 +34,4 @@ export const DontJumpThisStep = () => {
       </Container>
     </Section>
   );
-};
+}

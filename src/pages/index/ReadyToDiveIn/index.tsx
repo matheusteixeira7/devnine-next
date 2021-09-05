@@ -10,7 +10,7 @@ import {
   ButtonsContainer,
 } from './styles';
 
-export const ReadyToDiveIn = () => {
+export default function ReadyToDiveIn() {
   return (
     <Section>
       <Container>
@@ -31,4 +31,4 @@ export const ReadyToDiveIn = () => {
       </Container>
     </Section>
   );
-};
+}

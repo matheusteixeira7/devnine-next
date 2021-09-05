@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Content, Dash, List, Section } from './styles';
 
-export const ResourcesList = () => {
+export default function ResourcesList() {
   return (
     <Section>
       <Container>
@@ -79,4 +79,4 @@ export const ResourcesList = () => {
       </Container>
     </Section>
   );
-};
+}

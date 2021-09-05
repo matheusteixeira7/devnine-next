@@ -9,7 +9,7 @@ import {
   FooterContent,
 } from './styles';
 
-export const DevnineHigher = () => {
+export default function DevnineHigher() {
   return (
     <Section>
       <Container>
@@ -50,4 +50,4 @@ export const DevnineHigher = () => {
       </Footer>
     </Section>
   );
-};
+}

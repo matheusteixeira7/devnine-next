@@ -12,7 +12,7 @@ import {
   Section,
 } from './styles';
 
-export const WhatYouWillLearn = () => {
+export default function WhatYouWillLearn() {
   return (
     <Section>
       <Container>
@@ -88,4 +88,4 @@ export const WhatYouWillLearn = () => {
       </Container>
     </Section>
   );
-};
+}

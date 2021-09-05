@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-import { Method } from '../index/Method';
+import Method from '../index/Method';
 
 export default function Posts() {
   return (

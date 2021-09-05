@@ -3,7 +3,7 @@ import React from 'react';
 import { ButtonPrimary } from '../../../components/ButtonPrimary/styles';
 import { Container, Content, Section } from './styles';
 
-export const GenerateValue = () => {
+export default function GenerateValue() {
   return (
     <Section>
       <Container>
@@ -22,4 +22,4 @@ export const GenerateValue = () => {
       </Container>
     </Section>
   );
-};
+}

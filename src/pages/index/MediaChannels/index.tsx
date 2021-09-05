@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Section, Table, TableContent, TableRow } from './styles';
 
-export const MediaChannels = () => {
+export default function MediaChannels() {
   return (
     <Section>
       <Container>
@@ -76,4 +76,4 @@ export const MediaChannels = () => {
       </Container>
     </Section>
   );
-};
+}

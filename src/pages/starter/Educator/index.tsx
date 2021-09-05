@@ -16,7 +16,7 @@ import {
   ButtonsContent,
 } from './styles';
 
-export const Educator = () => {
+export default function Educator() {
   return (
     <Section>
       <Container>
@@ -94,4 +94,4 @@ export const Educator = () => {
       </Container>
     </Section>
   );
-};
+}

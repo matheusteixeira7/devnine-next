@@ -11,7 +11,7 @@ import {
   HeroImg,
 } from './styles';
 
-export const Hero = () => {
+export default function Hero() {
   return (
     <Section>
       <Container>
@@ -42,4 +42,4 @@ export const Hero = () => {
       </Container>
     </Section>
   );
-};
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Card, Container, Dash, Header, Section, SupportText } from './styles';
 
-export const Method = () => {
+export default function Method() {
   return (
     <Section>
       <Container>
@@ -50,4 +50,4 @@ export const Method = () => {
       </Container>
     </Section>
   );
-};
+}

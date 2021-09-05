@@ -7,7 +7,7 @@ import {
   ButtonPrimary,
 } from './styles';
 
-export const EndCta = () => {
+export default function EndCta() {
   return (
     <Section>
       <Container>
@@ -27,4 +27,4 @@ export const EndCta = () => {
       </Container>
     </Section>
   );
-};
+}

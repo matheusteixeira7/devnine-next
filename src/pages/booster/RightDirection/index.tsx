@@ -10,7 +10,7 @@ import {
   Section,
 } from './styles';
 
-export const RightDirection = () => {
+export default function RightDirection() {
   return (
     <Section>
       <Container>
@@ -35,4 +35,4 @@ export const RightDirection = () => {
       </Container>
     </Section>
   );
-};
+}
