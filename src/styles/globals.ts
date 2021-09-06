@@ -31,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
   --shape: #1E1C27;
   --background: #181620;
   --background-linear: linear-gradient(to right, #1f1d26, #181620);
+  --nav-gradient: linear-gradient(to right, #0b0a0f, #181620);
 }
 
 html {
@@ -75,27 +76,48 @@ a {
 }
 
 h1 {
-  font-size: 4rem;
-  line-height: 5rem;
+  font-size: 3rem;
+  line-height: 4rem;
   font-weight: 700;
+
+  @media (min-width: 768px) {
+    font-size: 4rem;
+    line-height: 5rem;
+
+  }
 }
 
 h2 {
-  font-size: 1.5rem;
-  line-height: 2.25rem;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
   font-weight: 400;
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
 }
 
 h3 {
-  font-size: 3.75rem;
-  line-height: 5.25rem;
-  font-weight: 900;
+  font-size: 3rem;
+  line-height: auto;
+  font-weight: 700;
+
+  @media (min-width: 768px) {
+    font-size: 3.75rem;
+    line-height: 5.25rem;
+    font-weight: 900;
+  }
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 2.4rem;
   font-weight: 700;
+  
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 p {

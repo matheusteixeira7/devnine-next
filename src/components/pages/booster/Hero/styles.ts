@@ -1,16 +1,18 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  padding: 7rem 0 3.5rem;
+  padding: 2rem;
+
+  @media (min-width: 1024px) {
+    padding: 7rem 0;
+  }
 `;
 
 export const Container = styled.div`
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 0rem 2rem;
-
-  header {
+  @media (min-width: 1024px) {
+    padding: 0rem 2rem;
     margin: 0 auto;
+    max-width: 1024px;
   }
 
   h1 {
@@ -28,22 +30,36 @@ export const Container = styled.div`
   h2 {
     text-align: center;
     margin: 0 auto;
-    max-width: 54rem;
+
+    @media (min-width: 1024px) {
+      max-width: 54rem;
+    }
   }
 `;
 
-export const HeroImg = styled.img`
-  margin-left: -2rem;
-  width: 1120px;
-  height: auto;
-  padding: 0 2rem;
+export const HeroImg = styled.div`
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
 `;
 
 export const SupportText = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin-bottom: 4rem;
+
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+  }
 
   p {
     font-size: 1.5rem;
@@ -55,11 +71,20 @@ export const SupportText = styled.div`
 
 export const BoosterHeaderButtons = styled.div`
   margin: 2rem auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  width: 40rem;
+  @media (min-width: 768px) {
+    width: 32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 1024px) {
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const ButtonPrimary = styled.button`

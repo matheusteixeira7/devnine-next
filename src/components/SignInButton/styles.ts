@@ -16,6 +16,11 @@ export const Container = styled.button`
 
   transition: filter 200ms ease;
 
+  @media (max-width: 1023px) {
+    width: 100%;
+    height: 4rem;
+  }
+
   svg {
     height: 20px;
     width: 20px;

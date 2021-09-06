@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-import { ButtonPrimary } from '../../../ButtonPrimary/styles';
 import {
   Container,
   Content,
@@ -14,6 +13,7 @@ import {
   Booster,
   BoosterContent,
   BoosterFooter,
+  ButtonPrimary,
 } from './styles';
 
 export default function BestStep() {

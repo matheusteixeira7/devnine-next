@@ -1,67 +1,79 @@
 import styled from 'styled-components';
 
-export const Section = styled.section`
-  border: 1px solid #29292e;
-  position: relative;
-  background: var(--background-linear);
-`;
+export const Section = styled.section``;
 
 export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
-  height: 35rem;
-  padding: 0 2rem;
+  padding: 7rem 2rem;
+
+  header {
+    text-align: center;
+
+    span {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    h3 {
+      padding: 1rem 0;
+      span {
+        color: var(--primary);
+      }
+    }
+
+    p {
+      font-size: 1.25rem;
+      width: 44rem;
+      margin: 0 auto;
+      color: white;
+    }
+  }
+`;
+
+export const ButtonsContainer = styled.div`
+  max-width: 32rem;
+  margin: 2rem auto;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
-export const ImgContainer = styled.div`
-  margin-left: 1rem;
+export const ButtonPrimary = styled.button`
+  background: var(--primary);
+  border-radius: 0.4rem;
+  border: none;
+  color: var(--background);
+  font-size: 1.25rem;
+  font-weight: 700;
+  height: 4rem;
+  width: 100%;
+  transition: filter 200ms ease;
 
-  height: 30rem;
-  width: 40rem;
+  &:hover {
+    filter: brightness(0.8);
+  }
+`;
 
-  position: absolute;
-  bottom: 0rem;
-  right: 0rem;
-
-  background: blue;
+export const ButtonSecondary = styled.button`
+  background: transparent;
   border-radius: 0.25rem;
-  background-image: url('/images/vscode9.png');
-`;
-
-export const Content = styled.div`
-  max-width: 32rem;
-
-  h3,
-  p {
-    margin-bottom: 2rem;
-  }
-
-  h3 {
-    line-height: 4rem;
-
-    span {
-      color: var(--primary);
-    }
-  }
-
-  p {
-    font-size: 1.25rem;
-    color: white;
-  }
-
-  button:nth-child(2) {
-    &:hover {
-      background: var(--primary);
-    }
-  }
-`;
-
-export const ButtonsContainer = styled.div`
+  border: 1px solid white;
+  color: white;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  height: 4rem;
+  width: 100%;
+  margin-left: 1rem;
+  transition: all 200ms ease;
+
+  &:hover {
+    background: var(--primary);
+    border: 1px solid transparent;
+    color: var(--background);
+  }
 `;

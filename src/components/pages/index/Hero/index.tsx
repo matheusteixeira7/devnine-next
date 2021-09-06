@@ -2,7 +2,13 @@ import React from 'react';
 
 import { ButtonPrimary } from '../../../ButtonPrimary/styles';
 import { ButtonSecondary } from '../../../ButtonSecondary/styles';
-import { ButtonsContainer, Container, Content, Section } from './styles';
+import {
+  ButtonsContainer,
+  Container,
+  Content,
+  ImgDesktop,
+  Section,
+} from './styles';
 
 export default function Hero() {
   return (
@@ -17,13 +23,14 @@ export default function Hero() {
             Torne-se um profissional de alto impacto com capacidade para criar,
             resolver, ajudar, liderar e continuar evoluindo sempre.
           </h2>
+
           <ButtonsContainer>
             <ButtonPrimary type="button">Criar conta de graça</ButtonPrimary>
             <ButtonSecondary>Entrar</ButtonSecondary>
           </ButtonsContainer>
         </Content>
 
-        <img src="/images/mulher.svg" alt="Garota programando" />
+        <ImgDesktop src="/images/mulher.svg" alt="Garota programando" />
       </Container>
     </Section>
   );

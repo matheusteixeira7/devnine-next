@@ -21,7 +21,7 @@ export default function EndCta() {
           </h2>
 
           <BoosterHeaderButtons>
-            <ButtonPrimary type="button">Inscreva-se</ButtonPrimary>
+            <ButtonPrimary type="button">Reservar minha vaga</ButtonPrimary>
           </BoosterHeaderButtons>
         </header>
       </Container>

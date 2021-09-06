@@ -19,7 +19,6 @@ export default function Hero() {
           <img src="/images/booster-logo.svg" alt="Booster Logo" />
           <p>Domine ReactJS</p>
         </SupportText>
-
         <header>
           <h1>
             Acelere sua carreira como <span>desenvolvedor Front-end</span>
@@ -30,7 +29,7 @@ export default function Hero() {
           </h2>
 
           <BoosterHeaderButtons>
-            <ButtonPrimary type="button">Inscreva-se</ButtonPrimary>
+            <ButtonPrimary type="button">Reservar minha vaga</ButtonPrimary>
             <ButtonSecondary type="button">
               <AiFillPlayCircle style={{ marginRight: '1rem' }} />
               Assistir vídeo
@@ -38,7 +37,9 @@ export default function Hero() {
           </BoosterHeaderButtons>
         </header>
 
-        <HeroImg src="/images/booster-hero-image.png" alt="React Site" />
+        <HeroImg>
+          <img src="/images/hero-booster-image.png" alt="Hero" />
+        </HeroImg>
       </Container>
     </Section>
   );

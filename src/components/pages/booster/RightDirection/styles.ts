@@ -43,17 +43,18 @@ export const BoosterHeaderButtons = styled.div`
   display: flex;
   justify-content: flex-start;
   margin-top: 2rem;
-  width: 100%;
+  max-width: 32rem;
 `;
 
 export const ButtonPrimary = styled.button`
   background: var(--blue-500);
   border-radius: 0.25rem;
   border: none;
+  color: var(--background);
   font-size: 1.25rem;
   font-weight: 700;
   height: 4rem;
-  padding: 0 3.5rem;
+  width: 100%;
   transition: all 200ms ease;
   white-space: nowrap;
 
@@ -67,11 +68,14 @@ export const ButtonSecondary = styled.button`
   border-radius: 0.25rem;
   border: 1px solid white;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.25rem;
   font-weight: 700;
   height: 4rem;
   margin-left: 1rem;
-  padding: 0 3.5rem;
+  width: 100%;
   transition: all 200ms ease;
   white-space: nowrap;
 

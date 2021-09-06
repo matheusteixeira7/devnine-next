@@ -5,14 +5,18 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-  height: calc(100vh - 5rem);
+  padding: 3.5rem 2rem;
 
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 2rem;
-  max-width: 1120px;
+  @media (min-width: 768px) {
+    height: calc(100vh - 5rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
 `;
 
 export const Content = styled.div`
@@ -40,15 +44,23 @@ export const Content = styled.div`
 `;
 
 export const ButtonsContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 
-  width: 32rem;
+    width: 32rem;
+  }
 
   button:nth-child(2) {
     &:hover {
       background: var(--primary);
     }
+  }
+`;
+
+export const ImgDesktop = styled.img`
+  @media (max-width: 767px) {
+    display: none;
   }
 `;

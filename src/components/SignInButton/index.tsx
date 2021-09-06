@@ -5,7 +5,7 @@ import { FiX } from 'react-icons/fi';
 import { Container } from './styles';
 
 export default function SignInButton() {
-  const isLogged = true;
+  const isLogged = false;
 
   return isLogged ? (
     <Container type="button">

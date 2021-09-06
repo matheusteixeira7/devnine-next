@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   border-bottom: 1px solid #29292e;
+  background: var(--background-linear);
 `;
 
 export const Container = styled.div`
@@ -11,8 +12,12 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 7rem 2rem;
+  padding: 3.5rem 2rem;
   max-width: 1120px;
+
+  @media (min-width: 768px) {
+    padding: 7rem 2rem;
+  }
 `;
 
 export const Content = styled.div`
@@ -22,7 +27,9 @@ export const Content = styled.div`
   }
 `;
 
-export const Card = styled.div``;
+export const Card = styled.div`
+  filter: drop-shadow(0px 0px 10px #151515);
+`;
 
 export const SelectCourse = styled.div`
   width: 100%;
@@ -45,6 +52,7 @@ export const ButtonSelectCourse = styled.button<IButtonSelectCourseProps>`
   color: var(--title);
   font-weight: 700;
   height: 3rem;
+  padding: 0 1rem;
   transition: all 200ms ease;
 
   background: ${(props) => (props.isActive ? '#312d3f' : '#16141D')};
@@ -65,7 +73,9 @@ export const Starter = styled.div<IButtonSelectCourseProps>`
   min-height: 28rem;
 
   img {
-    /* margin-right: auto; */
+    @media (max-width: 767px) {
+      display: none;
+    }
   }
 `;
 
@@ -107,7 +117,9 @@ export const Booster = styled.div<IButtonSelectCourseProps>`
   min-height: 28rem;
 
   img {
-    /* margin-right: auto; */
+    @media (max-width: 767px) {
+      display: none;
+    }
   }
 `;
 
@@ -145,5 +157,26 @@ export const BoosterFooter = styled.div`
   p {
     margin: 0 0 0 1rem;
     color: white;
+  }
+`;
+
+export const ButtonPrimary = styled.button`
+  background: var(--primary);
+  border-radius: 0.4rem;
+  border: none;
+  color: #121214;
+  font-size: 1.25rem;
+  font-weight: 700;
+  height: 4rem;
+  transition: filter 200ms ease;
+  margin: 0;
+  width: 100%;
+
+  @media (min-width: 1024px) {
+    margin: 1rem 0;
+  }
+
+  &:hover {
+    filter: brightness(0.8);
   }
 `;

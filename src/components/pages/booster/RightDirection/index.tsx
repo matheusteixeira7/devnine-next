@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillPlayCircle } from 'react-icons/ai';
 
 import {
   BoosterHeaderButtons,
@@ -24,8 +25,11 @@ export default function RightDirection() {
             programação.
           </p>
           <BoosterHeaderButtons>
-            <ButtonPrimary type="button">Inscreva-se</ButtonPrimary>
-            <ButtonSecondary type="button">Saiba mais</ButtonSecondary>
+            <ButtonPrimary type="button">Reservar minha vaga</ButtonPrimary>
+            <ButtonSecondary type="button">
+              <AiFillPlayCircle style={{ marginRight: '1rem' }} />
+              Assistir vídeo
+            </ButtonSecondary>
           </BoosterHeaderButtons>
         </Content>
 

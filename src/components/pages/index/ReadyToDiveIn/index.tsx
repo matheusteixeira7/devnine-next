@@ -1,33 +1,34 @@
 import React from 'react';
 
-import { ButtonPrimary } from '../../../ButtonPrimary/styles';
-import { ButtonSecondary } from '../../../ButtonSecondary/styles';
 import {
-  Section,
-  Container,
-  Content,
-  ImgContainer,
+  ButtonPrimary,
   ButtonsContainer,
+  ButtonSecondary,
+  Container,
+  Section,
 } from './styles';
 
 export default function ReadyToDiveIn() {
   return (
     <Section>
       <Container>
-        <Content>
+        <header>
+          <span>
+            Aprenda a programar hoje e torne-se um profissional de alto impacto.
+          </span>
           <h3>
             Junte-se a <span>milhares de devs</span>.
           </h3>
           <p>
-            Aprenda a programar hoje e torne-se um profissional de alto impacto.
+            Você vai aprender programação do zero através de uma metodologia mão
+            na massa e com foco no desenvolvimento web.
           </p>
+        </header>
 
-          <ButtonsContainer>
-            <ButtonPrimary>Criar conta de graça</ButtonPrimary>
-            <ButtonSecondary>Entrar</ButtonSecondary>
-          </ButtonsContainer>
-        </Content>
-        <ImgContainer />
+        <ButtonsContainer>
+          <ButtonPrimary type="button">Criar conta de graça</ButtonPrimary>
+          <ButtonSecondary type="button">Entrar</ButtonSecondary>
+        </ButtonsContainer>
       </Container>
     </Section>
   );
