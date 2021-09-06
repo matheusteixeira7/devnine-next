@@ -23,7 +23,7 @@ export default function MediaChannels() {
           <ul>
             <li>
               <TableContent>
-                <img src="/images/icons8-home.svg" alt="Comunidade" />
+                <img src="/images/comunidade.svg" alt="Comunidade" />
                 <Headline>
                   <h4>Comunidade</h4>
                   <p>Crie conexões e evolua junto com milhares de devs</p>
@@ -45,7 +45,7 @@ export default function MediaChannels() {
           <ul>
             <li>
               <TableContent>
-                <img src="/images/icons8-youtube.svg" alt="Youtube" />
+                <img src="/images/youtube.svg" alt="Youtube" />
                 <Headline>
                   <h4>Canal Devnine</h4>
                   <p>Assista vídeos sobre programação e tecnologia</p>
@@ -67,7 +67,7 @@ export default function MediaChannels() {
           <ul>
             <li>
               <TableContent>
-                <img src="/images/icons8-instagram.svg" alt="Instagram" />
+                <img src="/images/instagram.svg" alt="Instagram" />
                 <Headline>
                   <h4>Instagram</h4>
                   <p>
@@ -91,7 +91,7 @@ export default function MediaChannels() {
           <ul>
             <li>
               <TableContent>
-                <img src="/images/icons8-folder.svg" alt="Blog" />
+                <img src="/images/blog.svg" alt="Blog" />
                 <Headline>
                   <h4>Blog</h4>
                   <p>Artigos e tutoriais sobre ReactJS</p>
