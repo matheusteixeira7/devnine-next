@@ -99,8 +99,12 @@ export const StarterContent = styled.div`
 
 export const StarterFooter = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+
+  @media (min-width: 768px) {
+    align-items: center;
+  }
 
   p {
     margin: 0 0 0 1rem;
@@ -151,8 +155,12 @@ export const BoosterContent = styled.div`
 
 export const BoosterFooter = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+
+  @media (min-width: 768px) {
+    align-items: center;
+  }
 
   p {
     margin: 0 0 0 1rem;
