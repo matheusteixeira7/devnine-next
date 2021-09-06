@@ -1,86 +1,114 @@
-import Link from 'next/link';
 import React from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 
-import { Section, Container, Content, Titles, Cta } from './styles';
+import {
+  Container,
+  Section,
+  Content,
+  TableContent,
+  Headline,
+  Label,
+} from './styles';
 
 export default function MediaChannels() {
   return (
     <Section>
       <Container>
         <Content>
-          <img src="/images/comunidade.svg" alt="Comunidade" />
+          <h3>
+            Conteúdo para
+            <br /> <span>nunca parar de aprender</span>
+          </h3>
 
-          <Titles>
-            <h4>Comunidade</h4>
-            <p>Crie conexões e evolua junto com milhares de devs</p>
-          </Titles>
+          <ul>
+            <li>
+              <TableContent>
+                <img src="/images/icons8-home.svg" alt="Comunidade" />
+                <Headline>
+                  <h4>Comunidade</h4>
+                  <p>Crie conexões e evolua junto com milhares de devs</p>
+                </Headline>
+              </TableContent>
+              <Label>
+                <p>PARTICIPAR AGORA</p>
+                <IoIosArrowForward
+                  style={{
+                    height: '1.5rem',
+                    width: '1.5rem',
+                    color: '#bef264',
+                  }}
+                />
+              </Label>
+            </li>
+          </ul>
 
-          <Link href="/posts">
-            <Cta>
-              <p>ACESSAR COMUNIDADE</p>
-              <div>
-                <IoIosArrowForward style={{ color: '#bef264' }} />
-              </div>
-            </Cta>
-          </Link>
-        </Content>
+          <ul>
+            <li>
+              <TableContent>
+                <img src="/images/icons8-youtube.svg" alt="Youtube" />
+                <Headline>
+                  <h4>Canal Devnine</h4>
+                  <p>Assista vídeos sobre programação e tecnologia</p>
+                </Headline>
+              </TableContent>
+              <Label>
+                <p>ACESSAR CANAL</p>
+                <IoIosArrowForward
+                  style={{
+                    height: '1.5rem',
+                    width: '1.5rem',
+                    color: '#bef264',
+                  }}
+                />
+              </Label>
+            </li>
+          </ul>
 
-        <Content>
-          <img src="/images/comunidade.svg" alt="Comunidade" />
+          <ul>
+            <li>
+              <TableContent>
+                <img src="/images/icons8-instagram.svg" alt="Instagram" />
+                <Headline>
+                  <h4>Instagram</h4>
+                  <p>
+                    Atualizações da Devnine e ainda mais conhecimento para você
+                  </p>
+                </Headline>
+              </TableContent>
+              <Label>
+                <p>SEGUIR A DEVNINE</p>
+                <IoIosArrowForward
+                  style={{
+                    height: '1.5rem',
+                    width: '1.5rem',
+                    color: '#bef264',
+                  }}
+                />
+              </Label>
+            </li>
+          </ul>
 
-          <Titles>
-            <h4>Canal Devnine</h4>
-            <p>
-              Assista quadros especiais, encontros ao vivo e conversas com
-              convidados
-            </p>
-          </Titles>
-
-          <Link href="/posts">
-            <Cta>
-              <p>ACESSAR COMUNIDADE</p>
-              <div>
-                <IoIosArrowForward style={{ color: '#bef264' }} />
-              </div>
-            </Cta>
-          </Link>
-        </Content>
-
-        <Content>
-          <img src="/images/comunidade.svg" alt="Comunidade" />
-
-          <Titles>
-            <h4>Instagram</h4>
-            <p>Crie conexões e evolua junto com milhares de devs</p>
-          </Titles>
-
-          <Link href="/posts">
-            <Cta>
-              <p>ACESSAR COMUNIDADE</p>
-              <div>
-                <IoIosArrowForward style={{ color: '#bef264' }} />
-              </div>
-            </Cta>
-          </Link>
-        </Content>
-
-        <Content>
-          <img src="/images/comunidade.svg" alt="Comunidade" />
-
-          <Titles>
-            <h4>Blog</h4>
-            <p>Crie conexões e evolua junto com milhares de devs</p>
-          </Titles>
-
-          <Link href="/posts">
-            <Cta>
-              <p>ACESSAR COMUNIDADE</p>
-              <div>
-                <IoIosArrowForward style={{ color: '#bef264' }} />
-              </div>
-            </Cta>
-          </Link>
+          <ul>
+            <li>
+              <TableContent>
+                <img src="/images/icons8-folder.svg" alt="Blog" />
+                <Headline>
+                  <h4>Blog</h4>
+                  <p>Artigos e tutoriais sobre ReactJS</p>
+                </Headline>
+              </TableContent>
+              <Label>
+                <p>ACESSAR BLOG</p>
+                <IoIosArrowForward
+                  style={{
+                    height: '1.5rem',
+                    width: '1.5rem',
+                    color: '#bef264',
+                  }}
+                />
+              </Label>
+            </li>
+          </ul>
         </Content>
       </Container>
     </Section>

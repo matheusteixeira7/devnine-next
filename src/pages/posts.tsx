@@ -20,7 +20,7 @@ export default function Posts() {
         <Hero />
         <BestStep />
         <Method />
-        {/* <MediaChannels /> */}
+        <MediaChannels />
       </main>
     </>
   );
