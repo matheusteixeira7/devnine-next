@@ -170,6 +170,7 @@ export const ButtonPrimary = styled.button`
   height: 4rem;
   transition: filter 200ms ease;
   margin: 0;
+  padding: 0 1rem;
   width: 100%;
 
   @media (min-width: 1024px) {
