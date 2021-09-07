@@ -17,7 +17,7 @@ export default function ReadyToDiveIn() {
             Aprenda a programar hoje e torne-se um profissional de alto impacto.
           </span>
           <h3>
-            Junte-se a <span>milhares de devs</span>.
+            Junte-se a<br /> <span>milhares de devs</span>.
           </h3>
           <p>
             Você vai aprender programação do zero através de uma metodologia mão

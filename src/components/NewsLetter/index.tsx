@@ -18,8 +18,7 @@ export default function NewsLetter() {
     <Section>
       <Container>
         <h4>
-          Receba informações sobre programação
-          <br /> e tecnologia em primeira mão
+          Receba informações sobre programação e tecnologia em primeira mão
         </h4>
         <NewsletterContainer>
           <form onSubmit={handleSubmit}>
@@ -37,6 +36,7 @@ export default function NewsLetter() {
                 type="email"
                 name="newsletter"
                 id="#email"
+                className="email"
                 placeholder="E-mail"
                 value={state.value}
                 onChange={handleChange}

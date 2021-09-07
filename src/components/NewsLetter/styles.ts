@@ -17,19 +17,33 @@ export const NewsletterContainer = styled.div`
   margin-top: 2rem;
 
   form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    @media (min-width: 1024px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 100%;
+    }
 
     div {
       position: relative;
       display: flex;
       align-items: center;
 
+      input.email {
+        width: 100%;
+
+        @media (min-width: 1024px) {
+          width: auto;
+        }
+      }
+
       &:nth-child(2) {
         padding: 0;
         margin: 0;
+
+        input {
+          margin: 1rem 0;
+        }
 
         span {
           margin-left: 1rem;
@@ -40,7 +54,6 @@ export const NewsletterContainer = styled.div`
   }
 
   button {
-    margin-left: 2rem;
     background: var(--primary);
     color: var(--background);
     border: none;
@@ -49,6 +62,12 @@ export const NewsletterContainer = styled.div`
     padding: 0 4rem;
     transition: all 200ms ease;
     font-weight: 900;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+      margin-left: 2rem;
+      width: auto;
+    }
 
     &:hover {
       filter: brightness(0.8);
