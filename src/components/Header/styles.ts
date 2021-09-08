@@ -28,6 +28,7 @@ export const Mobile = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 
   img {
     height: 2.5rem;

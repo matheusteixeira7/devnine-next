@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 import { SocialMediaFooter } from '../SocialMediaFooter';
@@ -9,9 +10,16 @@ export default function Footer() {
       <Section>
         <Container>
           <Branding>
-            <img src="/images/logo-horizontal.svg" alt="Devnine Logo" />
-            <span>Devnine 2021</span>
-            <span>Todos os direitos reservados</span>
+            <Image
+              src="/images/logo-horizontal.svg"
+              alt="Devnine Logo"
+              width={300}
+              height={82}
+            />
+            <div>
+              <p>Devnine 2021</p>
+              <p>Todos os direitos reservados</p>
+            </div>
           </Branding>
 
           <nav>

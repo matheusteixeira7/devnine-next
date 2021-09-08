@@ -9,16 +9,22 @@ export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
   padding: 3.5rem 2rem;
+
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
 
   nav {
     display: grid;
     align-items: flex-start;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 
     ul {
       list-style-type: none;
@@ -36,12 +42,17 @@ export const Container = styled.div`
 `;
 
 export const Branding = styled.div`
-  img {
-    height: 5rem;
-    margin-bottom: 3rem;
-  }
+  margin-bottom: 5rem;
+  align-self: flex-start;
 
-  span {
-    display: block;
+  div {
+    p {
+      display: block;
+      color: white;
+    }
+
+    p:first-child {
+      margin-top: 1rem;
+    }
   }
 `;

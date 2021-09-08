@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
@@ -14,7 +15,12 @@ export default function Header() {
     <Section>
       <Nav>
         <Mobile>
-          <img src="/images/logo-horizontal.svg" alt="Devnine" />
+          <Image
+            src="/images/logo-horizontal.svg"
+            alt="Devnine"
+            width={300}
+            height={82}
+          />
 
           <div>
             <CgMenu
