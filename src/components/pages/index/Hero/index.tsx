@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { ButtonPrimary } from '../../../ButtonPrimary/styles';
-import { ButtonSecondary } from '../../../ButtonSecondary/styles';
 import {
   ButtonsContainer,
+  ButtonPrimary,
+  ButtonSecondary,
   Container,
   Content,
   ImgDesktop,
