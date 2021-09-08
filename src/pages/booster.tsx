@@ -17,7 +17,7 @@ export default function Booster() {
         <title>Devnine</title>
         <meta
           name="description"
-          content="Devnine, ajudando você a programar melhor"
+          content="Devnine, ajudando você a programar melhorr"
         />
       </Head>
       <main>
